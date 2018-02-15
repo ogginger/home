@@ -4,7 +4,7 @@ requirejs.config({
 	paths: {
 		"rsvp": "lib/rsvp.min",
 		"backbone": "lib/backbone.min",
-		"underscore": "lib/backbone.min",
+		"underscore": "lib/underscore.min",
 		"jquery": "lib/jquery.min"
 	},
 
