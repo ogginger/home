@@ -13,7 +13,7 @@ define([
 ) {
 	return Backbone.View.extend({
 		"initialize": function() {
-			log("View initialized successfully!");
+			log("AppView initialized successfully!");
 		}
 	});
 });
