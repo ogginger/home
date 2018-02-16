@@ -63,7 +63,7 @@ requirejs([
 
 	/*
 	var xSnip = new Snip({
-		"Dir":"/var/www/html/scripts/backend/etc/Snippets/",
+		"Dir":"/var/www/html/scripts/etc/Snippets/",
 		"Snippets": {
 			"function": "function.txt",
 			"testsuite": "testsuite.txt",
