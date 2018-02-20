@@ -1,5 +1,9 @@
 /* css.css: Styling for the home app. */
 
+body {
+	background-image: radial-gradient( black, white );
+}
+
 #background {
 	width: 100%;
 	height: auto;

@@ -5,7 +5,8 @@ requirejs.config({
 		"rsvp": "lib/rsvp.min",
 		"backbone": "lib/backbone.min",
 		"underscore": "lib/underscore.min",
-		"jquery": "lib/jquery.min"
+		"jquery": "lib/jquery.min",
+		"bootstrap": "lib/bootstrap.min",
 	},
 
 	shim: {
@@ -21,17 +22,24 @@ requirejs.config({
 				"jquery"
 			],
 			exports: "_"
+		},
+		"bootstrap": {
+			deps: [
+				"jquery"
+			],
+			exports: "bootstrap"
 		}
 	}
 });
 
 require([
+	"Functions/log",
 	"Views/AppView",
-	"Functions/log"
+	"bootstrap"
 ], function(
-	AppView,
-	log
+	log,
+	AppView
 ) {
-	log("Home App main initialized successfully!");
-	var xApp = new AppView();
+	log( "Home's main initialized successfully!" );
+	new AppView();
 });
